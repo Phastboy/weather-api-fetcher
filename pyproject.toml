@@ -1,0 +1,12 @@
+[project]
+name = "weather-api-fetcher"
+version = "0.1.0"
+description = "weather fetcher with python"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.0",
+    "rich>=14.3.3",
+    "typer>=0.24.1",
+]
